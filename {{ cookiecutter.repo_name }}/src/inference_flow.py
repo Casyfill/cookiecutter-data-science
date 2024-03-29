@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 from metaflow import S3, FlowSpec, Parameter, step
 
-from . import __version__
+from {{ cookiecutter.repo_name }} import __version__
 
 logger = logging.getLogger("{{ cookiecutter.repo_name }}.inference_flow")
 

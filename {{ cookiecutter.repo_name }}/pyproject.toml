@@ -5,6 +5,9 @@ version = "0.1.0"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 readme = "README.md"
+include = [
+    { path = "sql/*.sql" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
