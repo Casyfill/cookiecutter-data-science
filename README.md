@@ -1,9 +1,15 @@
-# Cookiecutter Data Science
+# Cookiecutter Data Science - ZGNY edition
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
+### Roadmap
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+- set to support AIP and work on aip
+- set to build research docker and publish package to artifactory if needed
+- structure notebooks
+  - add Mlflow Analysis Notebook
+  - add notebooks based on the task
+
 
 
 ### Requirements to use the cookiecutter template:
